@@ -72,7 +72,7 @@ table comercio_exterior
 	column Año = YEAR(comercio_exterior[Fecha])
 		formatString: 0
 		lineageTag: a9cb9fdc-728c-40aa-81d1-047d7ef65b7f
-		summarizeBy: sum
+		summarizeBy: none
 
 		annotation SummarizationSetBy = Automatic
 
