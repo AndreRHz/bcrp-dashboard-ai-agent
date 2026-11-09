@@ -6,6 +6,10 @@ table comercio_exterior
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'Promedio Var. Valor' = AVERAGE(comercio_exterior[valor_x_var])
+		formatString: #,0.00
+		lineageTag: 432518e7-8a68-466c-a6ee-47f25f354ad0
+
 	column Fecha
 		dataType: dateTime
 		formatString: Long Date
