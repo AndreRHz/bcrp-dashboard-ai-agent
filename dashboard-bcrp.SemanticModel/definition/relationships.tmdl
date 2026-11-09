@@ -1,0 +1,5 @@
+relationship d6fd3feb-7827-4a4b-b19f-e594bcacaad4
+	joinOnDateBehavior: datePartOnly
+	fromColumn: comercio_exterior.Fecha
+	toColumn: LocalDateTable_20a312ee-57fd-4d1d-ac9d-17d8a81baaaf.Date
+

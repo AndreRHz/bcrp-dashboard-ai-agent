@@ -1,0 +1,21 @@
+model Model
+	culture: es-MX
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-PE
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["comercio_exterior"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table comercio_exterior
+ref table DateTableTemplate_186053de-3afc-4495-afcd-dbc64102d867
+ref table LocalDateTable_20a312ee-57fd-4d1d-ac9d-17d8a81baaaf
+
+ref cultureInfo es-MX
+

@@ -1,0 +1,95 @@
+table comercio_exterior
+	lineageTag: 08390de0-3b61-49d3-bb4c-a80906048abf
+
+	measure 'Precio en paradoja' = CALCULATE(AVERAGE(comercio_exterior[precio_x_var]), comercio_exterior[ParadojaMarcada] = 1)
+		lineageTag: f6fc62c7-c184-4e9d-a630-d090bbe97bcf
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Fecha
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: ccded122-d748-4377-85fa-e2a2e6b9be5f
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		variation Variación
+			isDefault
+			relationship: d6fd3feb-7827-4a4b-b19f-e594bcacaad4
+			defaultHierarchy: LocalDateTable_20a312ee-57fd-4d1d-ac9d-17d8a81baaaf.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column precio_x_var
+		dataType: double
+		lineageTag: 2e469154-0b4d-44bf-b2a4-de9470ab1353
+		summarizeBy: sum
+		sourceColumn: precio_x_var
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column volumen_x_var
+		dataType: double
+		lineageTag: e1ba5033-e362-45d5-a4c0-66e50048cdac
+		summarizeBy: sum
+		sourceColumn: volumen_x_var
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column valor_x_var
+		dataType: double
+		lineageTag: 94238155-f662-4e53-b65c-ae6e4dadf235
+		summarizeBy: sum
+		sourceColumn: valor_x_var
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ParadojaMarcada = IF(comercio_exterior[volumen_x_var] > 0 && comercio_exterior[precio_x_var] < -5, 1, 0)
+		formatString: 0
+		lineageTag: 73a51e92-1ada-4350-8fb2-a4081fdfdf88
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estado = IF(comercio_exterior[ParadojaMarcada] = 1, "Paradoja", "Normal")
+		lineageTag: 04548863-61dd-4b45-9fa4-83026a74c263
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Año = YEAR(comercio_exterior[Fecha])
+		formatString: 0
+		lineageTag: a9cb9fdc-728c-40aa-81d1-047d7ef65b7f
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre = "Trim. " & QUARTER(comercio_exterior[Fecha])
+		lineageTag: baac2e66-9120-473b-8563-c3dfa409a6a4
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition comercio_exterior = m
+		mode: import
+		source =
+				let
+				    Origen = Odbc.DataSource("dsn=DuckDB", [HierarchicalNavigation=true]),
+				    bcrp_Database = Origen{[Name="bcrp",Kind="Database"]}[Data],
+				    main_Schema = bcrp_Database{[Name="main",Kind="Schema"]}[Data],
+				    comercio_exterior_Table = main_Schema{[Name="comercio_exterior",Kind="Table"]}[Data],
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(comercio_exterior_Table,{{"fecha", "Fecha"}}),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Columnas con nombre cambiado",{"terminos_intercambio_var"})
+				in
+				    #"Columnas quitadas"
+
+	annotation PBI_ResultType = Table
+

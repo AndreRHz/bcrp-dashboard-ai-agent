@@ -1,0 +1,1227 @@
+cultureInfo es-MX
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "comercio_exterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comercio exterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comercio_exterior": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "comercio facade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "comercio façade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "comercio outside": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "comercio surface": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "comercio shell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "comercio appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        },
+			        {
+			          "comercio mien": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        },
+			        {
+			          "comercio aura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "Fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "comercio_exterior.fecha.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.fecha.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.fecha.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.fecha.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.fecha.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.precio_x_var": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "precio_x_var"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio x var": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precio_x_var": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.volumen_x_var": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "volumen_x_var"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "volumen x var": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volumen_x_var": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.valor_x_var": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "valor_x_var"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor x var": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_x_var": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "var": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "x var": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.paradoja_marcada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "ParadojaMarcada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "paradoja marcada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ParadojaMarcada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.precio_en_paradoja": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "Precio en paradoja"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio en paradoja": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Precio en trimestre de paradoja (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "comercio_exterior_fecha_me_has_comercio_exterior_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior.fecha.me": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.me"
+			          }
+			        },
+			        "comercio_exterior.fecha.día": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.día"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_fecha_trimestre_has_comercio_exterior_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.trimestre"
+			          }
+			        },
+			        "comercio_exterior.fecha.me": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_fecha_año_has_comercio_exterior_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior.fecha.año": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.año"
+			          }
+			        },
+			        "comercio_exterior.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.año"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_fecha_jerarquía_de_fecha_has_comercio_exterior_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "comercio_exterior.fecha.día": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_fecha_jerarquía_de_fecha_has_comercio_exterior_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "comercio_exterior.fecha.me": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_fecha_jerarquía_de_fecha_has_comercio_exterior_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "comercio_exterior.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_fecha_jerarquía_de_fecha_has_comercio_exterior_fecha_año": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "comercio_exterior.fecha.año": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_fecha_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior.fecha": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha"
+			          }
+			        },
+			        "comercio_exterior.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior.fecha"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_valor_en_paradoja": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.valor_en_paradoja": {
+			          "Target": {
+			            "Entity": "comercio_exterior.valor_en_paradoja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.valor_en_paradoja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_valor_en_paradoja"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_precio_en_paradoja": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.precio_en_paradoja": {
+			          "Target": {
+			            "Entity": "comercio_exterior.precio_en_paradoja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.precio_en_paradoja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_precio_en_paradoja"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.trimestre": {
+			          "Target": {
+			            "Entity": "comercio_exterior.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_trimestres"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_trim_oculto": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.trim_oculto": {
+			          "Target": {
+			            "Entity": "comercio_exterior.trim_oculto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.trim_oculto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_trim_ocultos"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.año": {
+			          "Target": {
+			            "Entity": "comercio_exterior.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_años"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.estado": {
+			          "Target": {
+			            "Entity": "comercio_exterior.estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_estado"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_paradoja_marcada": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.paradoja_marcada": {
+			          "Target": {
+			            "Entity": "comercio_exterior.paradoja_marcada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.paradoja_marcada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_paradoja_marcadas"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_paradoja": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.paradoja": {
+			          "Target": {
+			            "Entity": "comercio_exterior.paradoja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.paradoja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_paradojas"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_valor_x_var": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.valor_x_var": {
+			          "Target": {
+			            "Entity": "comercio_exterior.valor_x_var"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.valor_x_var"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_valor_x_vars"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_volumen_x_var": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.volumen_x_var": {
+			          "Target": {
+			            "Entity": "comercio_exterior.volumen_x_var"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.volumen_x_var"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_volumen_x_vars"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_terminos_intercambio_var": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.terminos_intercambio_var": {
+			          "Target": {
+			            "Entity": "comercio_exterior.terminos_intercambio_var"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.terminos_intercambio_var"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_terminos_intercambio_vars"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_precio_x_var": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.precio_x_var": {
+			          "Target": {
+			            "Entity": "comercio_exterior.precio_x_var"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.precio_x_var"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_precio_x_vars"
+			        }
+			      ]
+			    },
+			    "comercio_exterior_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "comercio_exterior"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comercio_exterior": {
+			          "Target": {
+			            "Entity": "comercio_exterior"
+			          }
+			        },
+			        "comercio_exterior.fecha": {
+			          "Target": {
+			            "Entity": "comercio_exterior.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comercio_exterior"
+			            },
+			            "Object": {
+			              "Role": "comercio_exterior.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comercio_exteriors_have_fechas"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
