@@ -13,7 +13,7 @@ El objetivo del proyecto es probar un flujo de trabajo real de **desarrollo de B
 | ![Dashboard original](dashboard-bcrp-1_inicial.jpg) | ![Dashboard rediseñado con Claude Code](dashboard-bcrp-2_agente_ia_claude.jpg) |
 
 - **Diseño original:** ~1 jornada laboral (prototipado en Figma, probando combinaciones de colores).
-- **Rediseño con agente:** 10 minutos generando y ejecutando el promt, más 10 minutos de validación.
+- **Rediseño con agente:** 10 minutos generando y ejecutando el prompt, más 10 minutos de validación.
 
 **Lo que agregó el rediseño:** fila de KPIs, panel lateral de filtros (Año, Trimestre, Estado), botón "Limpiar filtros", navegación entre páginas, paleta consistente (Normal / Paradoja) en todos los visuales y una jerarquía visual más clara.
 
