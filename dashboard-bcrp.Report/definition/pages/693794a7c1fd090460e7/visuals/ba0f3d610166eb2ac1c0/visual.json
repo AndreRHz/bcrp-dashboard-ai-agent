@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "ba0f3d610166eb2ac1c0",
   "position": {
-    "x": 40,
-    "y": 40,
+    "x": 39.512195121951216,
+    "y": 51.365853658536579,
     "z": 2000,
-    "height": 32,
-    "width": 248,
+    "height": 36.8780487804878,
+    "width": 248.92682926829266,
     "tabOrder": 2000
   },
   "visual": {
@@ -21,14 +21,13 @@
                   {
                     "value": "Filtros",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontFamily": "Segoe UI Semibold",
                       "fontSize": "14pt",
-                      "color": "#1F2933",
-                      "fontWeight": "bold"
+                      "color": "#1f2933"
                     }
                   }
-                ],
-                "horizontalTextAlignment": "left"
+                ]
               }
             ]
           }
