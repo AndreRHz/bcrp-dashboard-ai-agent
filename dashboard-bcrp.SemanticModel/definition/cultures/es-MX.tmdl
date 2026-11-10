@@ -126,6 +126,16 @@ cultureInfo es-MX
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
+			        },
+			        {
+			          "Trimestre (fecha)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ],
 			      "SemanticType": "Time"
@@ -412,6 +422,37 @@ cultureInfo es-MX
 			        },
 			        {
 			          "Precio en trimestre de paradoja (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Precio en paradoja (var. % promedio)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "comercio_exterior.promedio_var__valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comercio_exterior",
+			          "ConceptualProperty": "Promedio Var. Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Var. del valor en paradoja (% promedio)": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
